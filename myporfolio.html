@@ -1,0 +1,460 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ali - Web Developer & Business Consultant</title>
+    
+    <!-- Meta Tags for SEO -->
+    <meta name="description" content="Professional portfolio of Ali - Web Developer and Business Consultant specializing in creating powerful digital experiences">
+    <meta name="keywords" content="web developer, business consultant, portfolio, react developer, UI/UX designer">
+    <meta name="author" content="Ali">
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="myporfolio.css">
+</head>
+<body>
+    <!-- Header / Navigation -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <a href="#home">Ali.</a>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+                <li><a href="#blog" class="nav-link">Blog</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Home / Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <div class="hero-image-wrapper">
+                        <div class="hero-image-placeholder">
+                            <img src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Profile Placeholder" class="hero-img">
+                            <div class="image-overlay">
+                                <span>Your photo here</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hero-text">
+                        <h1>Hi, I'm <span class="highlight">Ali</span></h1>
+                        <h2>Web Developer & Business Consultant</h2>
+                        <p>Transforming ideas into powerful digital experiences that drive business growth and innovation.</p>
+                        <div class="hero-buttons">
+                            <a href="#projects" class="btn btn-primary">View Projects</a>
+                            <a href="#contact" class="btn btn-secondary">Book Online</a>
+                        </div>
+                        <div class="social-links">
+                            <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <div class="about-image-wrapper">
+                        <div class="about-image-placeholder">
+                            <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="About Placeholder" class="about-img">
+                            <div class="image-overlay">
+                                <span>Your photo here</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-text">
+                        <h3>Passionate Developer & Strategic Consultant</h3>
+                        <p>With over 8 years of experience in web development and business consulting, I help businesses establish a powerful online presence and optimize their digital strategies for maximum growth. My approach combines technical expertise with business acumen to deliver solutions that not only look great but drive real results.</p>
+                        <p>I believe in creating meaningful digital experiences that connect with users and achieve business objectives. Every project is an opportunity to innovate and exceed expectations.</p>
+                        
+                        <!-- Photo Placeholder Section 1 -->
+                        <div class="photo-placeholder-grid">
+                            <div class="photo-placeholder-item">
+                                <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Work Placeholder">
+                                <span>Work Photo</span>
+                            </div>
+                            <div class="photo-placeholder-item">
+                                <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Team Placeholder">
+                                <span>Team Photo</span>
+                            </div>
+                        </div>
+                        
+                        <div class="skills">
+                            <h4>Key Skills</h4>
+                            <div class="skill-tags">
+                                <span class="skill-tag">React</span>
+                                <span class="skill-tag">Node.js</span>
+                                <span class="skill-tag">Python</span>
+                                <span class="skill-tag">UI/UX Design</span>
+                                <span class="skill-tag">Business Strategy</span>
+                                <span class="skill-tag">Digital Marketing</span>
+                            </div>
+                        </div>
+                        
+                        <a href="#" class="btn btn-primary">Download Resume</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="services">
+            <div class="container">
+                <h2 class="section-title">My Services</h2>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3>Web Development</h3>
+                        <p>Custom websites and web applications built with modern technologies for optimal performance and user experience.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> Responsive Design</li>
+                            <li><i class="fas fa-check"></i> E-commerce Solutions</li>
+                            <li><i class="fas fa-check"></i> CMS Integration</li>
+                        </ul>
+                        <div class="service-price">Starting at $2,500</div>
+                        <a href="#contact" class="btn btn-secondary service-btn">Book Now</a>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h3>Business Consulting</h3>
+                        <p>Strategic guidance to optimize your business processes, improve efficiency, and drive sustainable growth.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> Market Analysis</li>
+                            <li><i class="fas fa-check"></i> Growth Strategy</li>
+                            <li><i class="fas fa-check"></i> Process Optimization</li>
+                        </ul>
+                        <div class="service-price">Starting at $300/hour</div>
+                        <a href="#contact" class="btn btn-secondary service-btn">Book Now</a>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-paint-brush"></i>
+                        </div>
+                        <h3>Branding & Design</h3>
+                        <p>Complete brand identity design that sets you apart from competitors and resonates with your target audience.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> Logo Design</li>
+                            <li><i class="fas fa-check"></i> Brand Strategy</li>
+                            <li><i class="fas fa-check"></i> Marketing Materials</li>
+                        </ul>
+                        <div class="service-price">Starting at $1,500</div>
+                        <a href="#contact" class="btn btn-secondary service-btn">Book Now</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="project-filters">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="web">Web Development</button>
+                    <button class="filter-btn" data-filter="design">Design</button>
+                    <button class="filter-btn" data-filter="consulting">Consulting</button>
+                </div>
+                <div class="projects-grid">
+                    <!-- Project cards will be dynamically added here via JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section id="testimonials" class="testimonials">
+            <div class="container">
+                <h2 class="section-title">What Clients Say</h2>
+                <div class="testimonials-slider">
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <i class="fas fa-quote-left"></i>
+                            <p>"Ali transformed our online presence completely. His attention to detail and understanding of our business needs resulted in a website that not only looks amazing but has increased our conversions by 40%."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <img src="https://images.unsplash.com/photo-1494790108777-466fd0c6f5f0?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80" alt="Client">
+                            <div class="author-info">
+                                <h4>Sarah Johnson</h4>
+                                <p>CEO, TechStart</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <i class="fas fa-quote-left"></i>
+                            <p>"Working with Ali was a game-changer for our business. His strategic consulting helped us streamline our operations and identify new growth opportunities we hadn't considered."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80" alt="Client">
+                            <div class="author-info">
+                                <h4>Michael Chen</h4>
+                                <p>Founder, GrowthLabs</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <i class="fas fa-quote-left"></i>
+                            <p>"Professional, creative, and delivers beyond expectations. Ali designed a brand identity that perfectly captures our company's vision. Highly recommended!"</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80" alt="Client">
+                            <div class="author-info">
+                                <h4>Emma Davis</h4>
+                                <p>Marketing Director</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-dots">
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Blog/News Section -->
+        <section id="blog" class="blog">
+            <div class="container">
+                <h2 class="section-title">Latest Insights</h2>
+                <div class="blog-grid">
+                    <article class="blog-card">
+                        <div class="blog-image">
+                            <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Blog Post">
+                        </div>
+                        <div class="blog-content">
+                            <div class="blog-meta">
+                                <span><i class="far fa-calendar"></i> Mar 15, 2024</span>
+                                <span><i class="far fa-clock"></i> 5 min read</span>
+                            </div>
+                            <h3>10 Web Development Trends in 2024</h3>
+                            <p>Stay ahead of the curve with these emerging trends shaping the future of web development.</p>
+                            <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+
+                    <article class="blog-card">
+                        <div class="blog-image">
+                            <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Blog Post">
+                        </div>
+                        <div class="blog-content">
+                            <div class="blog-meta">
+                                <span><i class="far fa-calendar"></i> Mar 8, 2024</span>
+                                <span><i class="far fa-clock"></i> 4 min read</span>
+                            </div>
+                            <h3>Business Growth Strategies for 2024</h3>
+                            <p>Practical strategies to scale your business in today's competitive digital landscape.</p>
+                            <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+
+                    <article class="blog-card">
+                        <div class="blog-image">
+                            <img src="https://images.unsplash.com/photo-1557838923-2985c318be48?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Blog Post">
+                        </div>
+                        <div class="blog-content">
+                            <div class="blog-meta">
+                                <span><i class="far fa-calendar"></i> Mar 1, 2024</span>
+                                <span><i class="far fa-clock"></i> 6 min read</span>
+                            </div>
+                            <h3>The Importance of Brand Identity</h3>
+                            <p>How a strong brand identity can set you apart and build customer loyalty.</p>
+                            <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact/Booking Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section-title">Book a Consultation</h2>
+                <div class="contact-container">
+                    <div class="contact-info">
+                        <h3>Let's Work Together</h3>
+                        <p>Have a project in mind? I'd love to hear about it. Fill out the form and I'll get back to you within 24 hours.</p>
+                        
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>ali@example.com</p>
+                            </div>
+                        </div>
+                        
+                        <div class="info-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Phone</h4>
+                                <p>+1 (555) 123-4567</p>
+                            </div>
+                        </div>
+                        
+                        <div class="info-item">
+                            <i class="fab fa-whatsapp"></i>
+                            <div>
+                                <h4>WhatsApp</h4>
+                                <p>+1 (555) 987-6543</p>
+                            </div>
+                        </div>
+                        
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Location</h4>
+                                <p>San Francisco, CA</p>
+                            </div>
+                        </div>
+                        
+                        <!-- Photo Placeholder Section 2 -->
+                        <div class="contact-photo-placeholder">
+                            <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Office Placeholder">
+                            <span>Office Photo</span>
+                        </div>
+                    </div>
+                    
+                    <form class="contact-form" id="bookingForm">
+                        <div class="form-group">
+                            <label for="name">Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="date">Preferred Date *</label>
+                                <input type="date" id="date" name="date" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="time">Preferred Time *</label>
+                                <input type="time" id="time" name="time" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="service">Service *</label>
+                            <select id="service" name="service" required>
+                                <option value="">Select a service</option>
+                                <option value="web-development">Web Development</option>
+                                <option value="business-consulting">Business Consulting</option>
+                                <option value="branding">Branding & Design</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="4" placeholder="Tell me about your project..."></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary submit-btn">Book Consultation</button>
+                        
+                        <div id="formMessage" class="form-message"></div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>Ali.</h3>
+                    <p>Transforming ideas into exceptional digital experiences. Let's build something amazing together.</p>
+                    <div class="footer-social">
+                        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#services">Web Development</a></li>
+                        <li><a href="#services">Business Consulting</a></li>
+                        <li><a href="#services">Branding & Design</a></li>
+                        <li><a href="#services">Digital Strategy</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Newsletter</h4>
+                    <p>Subscribe for insights and updates</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your email">
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Ali. All rights reserved. | Designed with <i class="fas fa-heart"></i> for creativity</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top" title="Back to Top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Custom JavaScript -->
+    <script src="myporfolio.js"></script>
+</body>
+</html>
